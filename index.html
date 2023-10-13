@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ToDo List App</title>
+</head>
+<body>
+    <h1>ToDo List</h1>
+
+    <div id="input-section">
+        <label for="todo-name">ToDo Name:</label>
+        <input type="text" id="todo-name">
+
+        <label for="todo-description">Description:</label>
+        <input type="text" id="todo-description">
+
+        <button onclick="addItem()">Add Item</button>
+    </div>
+
+    <div id="remaining-section">
+        <h2>ToDos Remaining</h2>
+        <ul id="todo-list">
+        </ul>
+    </div>
+
+    <div id="done-section">
+        <h2>Done ToDos</h2>
+        <ul id="done-list">
+        </ul>
+    </div>
+    <script src="main.js"></script>
+ 
+</body>
+</html>
